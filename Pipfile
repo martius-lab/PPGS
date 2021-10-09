@@ -1,0 +1,39 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+matplotlib = "==3.3.2"
+pandas = "*"
+scipy = "==1.1.0"
+numpy = "==1.16.1"
+seaborn = "*"
+plotille = "*"
+pathlib2 = "*"
+git-python = "*"
+pipenv = "*"
+graphviz = "==0.10.1"
+torch = "==1.4.0"
+torchvision = "==0.5.0"
+tensorboardX = "*"
+cloudpickle = "*"
+forwardable = "*"
+ipython = "*"
+pipfile = "*"
+shell = "*"
+gym = "==0.15.4"
+tqdm = "==4.19.4"
+jupyter = "*"
+filelock = "==3.0.10"
+cffi = "==1.13.2"
+imageio = "==2.6.1"
+imageio-ffmpeg = "==0.3.0"
+tensorboard = "*"
+cmake = "==3.18"
+networkx = "*"
+
+[requires]
+python_version = "3.6"
