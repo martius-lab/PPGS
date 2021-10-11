@@ -1,5 +1,7 @@
 # PPGS: Planning from Pixels in Environments with Combinatorially Hard Search Spaces
 
+![PPGS Overview](imgs/ppgs.png?raw=true "PPGS Overview")
+
 ### Environment Setup
 
 - We recommend pipenv for creating and managing virtual environments (dependencies for other environment managers can be found in `Pipfile`)
