@@ -8,14 +8,14 @@
 
 ```
 git clone https://github.com/martius-lab/PPGS
-cd ppgs
+cd PPGS
 pipenv install
 pipenv shell
 ```
 
 - For simplicity, this codebase is ready for training on two of the three environments (IceSlider and DigitJump). They are part of the *puzzlegen* package, which we provide [here](https://github.com/martius-lab/puzzlegen), and can be simply installed with
 ```
-pip install -e https://github.com/martius-lab/puzzlegen
+pip install -e git+https://github.com/martius-lab/puzzlegen#egg=puzzlegen
 ```
 
 - Offline datasets can be generated for training and validation. In the case of IceSlider we can use
